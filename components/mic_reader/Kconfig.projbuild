@@ -1,0 +1,20 @@
+menu "Microphone Configuration"
+    config MIC_SAMPLE_RATE
+        int "Microphone sample rate"
+        default 16000
+        help
+            Sample rete used in microphone.
+
+    choice MIC_CHANNEL
+        prompt "Microphone channel configuration"
+        default MIC_CHANNEL_BOTH
+
+        config MIC_CHANNEL_RIGHT
+            bool "RIGHT"
+        config MIC_CHANNEL_LEFT
+            bool "LEFT"
+        config MIC_CHANNEL_BOTH
+            bool "BOTH"
+    endchoice
+
+endmenu

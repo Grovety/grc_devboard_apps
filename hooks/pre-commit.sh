@@ -17,7 +17,7 @@ fi
 version_num="${major_version}.${minor_version}.${patch_version}"
 
 # Working directory of a git hook is always the root of the repo
-cat > $(pwd)/src/git_version.h <<EOM
+cat > $(pwd)/main/git_version.h <<EOM
 #define MAJOR_VERSION            $major_version
 #define MINOR_VERSION            $minor_version
 #define PATCH_VERSION            $patch_version
@@ -26,4 +26,4 @@ cat > $(pwd)/src/git_version.h <<EOM
 #define APP_NAME_STRING          "${app_name}"
 EOM
 
-git add $(pwd)/src/git_version.h
+git add $(pwd)/main/git_version.h
