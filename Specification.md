@@ -120,4 +120,7 @@ LiPo 1S - 3.7V
 ### Power consumption (average)
 30mA
 
+![size](https://github.com/user-attachments/assets/ba5c36d3-9bb6-45ec-8b88-b64ec50ae20f)
+
+
 
