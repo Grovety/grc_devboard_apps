@@ -1,6 +1,7 @@
 # GRC tinyML DevBoard Specification
 
-![ovwerview](https://github.com/user-attachments/assets/065d38e4-7b0b-4457-a368-dec6655780fb)
+![DevBDesc](https://github.com/user-attachments/assets/454ce18d-dde3-46cd-bcaa-7b9363a4600f)
+
 
 ### Master module	ESP32-S3
 Tensilica Xtensa 32-bit LX7 microprocessor
@@ -119,8 +120,6 @@ Internal co-existence mechanism between Wi-Fi and Bluetooth to share the same an
 LiPo 1S - 3.7V
 ### Power consumption (average)
 30mA
-
-![size](https://github.com/user-attachments/assets/ba5c36d3-9bb6-45ec-8b88-b64ec50ae20f)
 
 
 
