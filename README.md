@@ -51,6 +51,14 @@ In the `App configuration` menu choose `Target device` and `Example application`
 
 ### Build, Flash, and Run
 
+Fetch submodules:
+
+```
+git submodule update --init
+```
+
+(or clone the repository with --recursive option)
+
 Build the project and flash it to the board:
 
 ```
